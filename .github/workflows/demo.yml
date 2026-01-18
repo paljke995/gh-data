@@ -49,6 +49,6 @@ jobs:
       - name: Outpu content
         run: ls
       - name: Output filename
-        run: excho ${{ needs.build.outputs.script-file }}
+        run: echo ${{ needs.build.outputs.script-file }}
       - name: Deploy
         run: echo "Deploying..."
